@@ -1,0 +1,17 @@
+#header{
+    background-color: burlywood;   
+    width: auto;
+    text-align: center;
+    padding: 50px;
+}
+#body{
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 50px;
+}
+#footer{
+    background-color: rgb(5, 16, 37);
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
