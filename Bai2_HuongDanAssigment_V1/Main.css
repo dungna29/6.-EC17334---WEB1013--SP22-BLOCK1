@@ -1,0 +1,22 @@
+body{
+    /* Vì mặc định margin của trình duyệt là 8px */
+    margin: 0px;
+}
+.img-fluid{
+    /* Cho tất cả các ảnh trên website full rộng */
+    width: 100%;
+}
+
+#wrapper{
+    /* Dựa trên file Photoshop sẽ đo chiều rộng tối đa của phần Wrapper */
+    max-width: 980px;
+    margin: 0 auto;
+    font-family: Tahoma;
+}
+/* ==Herder== */
+.header-top{
+    background-color: #272f54;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 16px;
+}
