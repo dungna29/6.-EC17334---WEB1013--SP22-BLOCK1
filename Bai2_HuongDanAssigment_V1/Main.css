@@ -20,3 +20,71 @@ body{
     padding-top: 20px;
     padding-bottom: 16px;
 }
+.header-main{
+    background-color: #cb7802;
+    /* Chia menu ra làm 2 thành phần */
+    display: flex;
+    /* Đưa các thành phần vê 2 đầu */
+    justify-content: space-between;
+    align-items: center;
+
+    /* Trên Phải Dưới Trái */
+    padding: 6px 6px 6px 6px;
+}
+.menu{
+    /* Bỏ chấm của li */
+    list-style: none;
+    /* Reset lại margin và padding về 0 */
+    margin: 0;
+    padding: 0;
+}
+.menu li{
+    /* Để các thành phần nằm ngang */
+    display: inline-block;
+}
+
+.menu li a{
+    /* Bỏ gạch chân thẻ a */
+    text-decoration: none;
+    color: #fefbfb;
+    font-size: 12px;
+    padding-left: 40px;
+    padding-left:40px;
+}
+.menu li a:hover{
+    /* Khi di chuột vào sẽ gạch chân */
+    text-decoration: underline;
+}
+
+.form-search-input{
+    border: 1px solid #cccccc;
+    color: white;
+    height: 22px;
+}
+.form-search-btn{
+    border: 1px solid #cccccc;
+    height: 22px;
+    background-color: #272f54;
+    color: white;
+    text-transform: uppercase;
+}
+.header-banner{
+    padding-top: 10px;
+}
+/* ===Tin Tức=== */
+#news h2.title{
+    color: #272f54;
+    font-size: 20px;
+    font-weight: bold;
+    /* Trái phải sẽ là 0px còn trên dưới là 20px */
+    margin: 20px 0;
+}
+
+#news .row{
+    /* Đưa các thành phần về dạng lưới */
+    display: grid;
+    /* 1fr tương ứng 1 cột */
+    grid-template-columns: 1fr 1fr 1fr;
+   /* Các cột cách nhau 30px */
+    grid-gap: 30px;
+}
