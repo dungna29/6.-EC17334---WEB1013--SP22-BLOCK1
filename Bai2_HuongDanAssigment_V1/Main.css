@@ -88,3 +88,42 @@ body{
    /* Các cột cách nhau 30px */
     grid-gap: 30px;
 }
+
+#news .row p{
+    line-height: 20pt;
+    text-align: justify;
+    font-size: 13pt;
+    color: black;
+}
+/* == Sau khi xử lý row thì sẽ tiền hành xử lý tiếp COLUMN */
+
+#news .col{
+    border: 1px solid #c2c2c2;
+    padding: 15px 25px;
+}
+#news h3{
+    /* Đưa margin trái phải về 0 px */
+    margin: 15px 0;
+    text-align: justify;
+}
+#news h3 a{
+    text-decoration: none;
+    color: #ad3f00;   
+    font-size: 16pt;
+    font-weight: bold;
+}
+/* === Footer=== */
+footer{
+    background-color: #272f54;
+    height: 50px;
+    text-align: center;   
+    padding: 20px;
+    text-transform: uppercase;    
+}
+footer a{
+    text-decoration: none;
+}
+footer p{
+    color: white;
+    font-size: 12px;
+}
